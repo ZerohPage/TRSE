@@ -19,8 +19,8 @@ jobs:
         version: '6.0.1'
         tools: 'tools_ifw,4.0,qt.tools.ifw.40 tools_qtcreator,4.13.2-0,qt.tools.qtcreator'
     - name: log
-      run: dir "../"
+      run: dir "../Qt/Tools/QtCreator/bin/"
       shell: cmd
     - name: make
-      run: ../Qt/Tools/QtCreator/bin/jom.exe TRSE.pro
+      run: "../Qt/Tools/QtCreator/bin/jom.exe TRSE.pro"
       
