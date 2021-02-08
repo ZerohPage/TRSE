@@ -22,6 +22,6 @@ jobs:
       run: echo %IQTA_TOOLS%
       shell: cmd
     - name: make
-      run: '${{ Qt6_DIR }}/Tools/QtCreator/bin/jom.exe TRSE.pro'
+      run: '${{ IQTA_TOOLS }}/QtCreator/bin/jom.exe TRSE.pro'
       shell: cmd
       
