@@ -16,4 +16,4 @@ jobs:
     - name: Install Qt
       uses: jurplel/install-qt-action@v2
     - name: make
-      run: qmake.exe TRSE.pro
+      run: jom.exe TRSE.pro
