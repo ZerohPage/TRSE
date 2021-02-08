@@ -22,5 +22,5 @@ jobs:
       run: echo %IQTA_TOOLS%
       shell: cmd
     - name: make
-      run: ${env:IQTA_TOOLS}\QtCreator\bin\jom.exe TRSE.pro
+      run: D:\a\TRSE/Qt/Tools\QtCreator\bin\jom.exe TRSE.pro
       
