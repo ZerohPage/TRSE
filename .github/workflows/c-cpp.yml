@@ -22,5 +22,5 @@ jobs:
       run: dir
       shell: cmd
     - name: make
-      run: D:\a\TRSE\Qt\Tools\QtCreator\bin\jom.exe TRSE.pro
+      run: ../Qt/Tools/QtCreator/bin/jom.exe TRSE.pro
       
