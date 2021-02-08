@@ -21,6 +21,8 @@ jobs:
     - name: log
       run: dir 
       shell: cmd
+    - name: qmake
+      run: "qmake TRSE.pro"
     - name: make
-      run: "../Qt/Tools/QtCreator/bin/jom.exe ./TRSE/TRSE.pro"
+      run: "../Qt/Tools/QtCreator/bin/jom.exe"
       
