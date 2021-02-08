@@ -19,7 +19,7 @@ jobs:
         version: '6.0.1'
         tools: 'tools_ifw,4.0,qt.tools.ifw.40 tools_qtcreator,4.13.2-0,qt.tools.qtcreator'
     - name: log
-      run: echo $Qt5_DIR
+      run: echo $Qt6_DIR
     - name: make
-      run: D:\a\TRSE/Qt/Tools/QtCreator/bin/jom.exe TRSE.pro
+      run: $Qt6_DIR/Tools/QtCreator/bin/jom.exe TRSE.pro
       
